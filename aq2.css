@@ -1,62 +1,71 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: #a5e0b4;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #a5e0b4;
 }
 
 nav {
-    background: #4caf72;
-    text-align: center;
+  background: #4caf72;
+  text-align: center;
 }
 
-.menu{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: inline-flex;
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
 }
 
-.menu li{
-    background-color: #478858;
-    position: relative;
-    text-align: center;
+.menu li {
+  background-color: #478858;
+  position: relative;
+  text-align: center;
 }
 
-.menu li a{
-    display: block;
-    padding: 20px 20px;
-    color: rgb(77, 68, 92);
-    text-decoration: none;
+.menu li a {
+  display: block;
+  padding: 20px 20px;
+  color: rgb(77, 68, 92);
+  text-decoration: none;
 }
 
 .menu li a:hover {
-    background-color: #5baf81;
+  background-color: #5baf81;
 }
 
-.submenu{
-    display: none;
-    position: absolute;
-    background-color: darkgray;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: darkgray;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-
-.menu li:hover .submenu{
-    display: block;
+.menu li:hover .submenu {
+  display: block;
 }
 
-.submenu li a{
-    padding: 10px 15px;
+.submenu li a {
+  padding: 10px 15px;
 }
 
 .submenu li a:hover {
-    background-color: #3db663;
+  background-color: #3db663;
 }
 
 ul {
-    color: #56a87b;
-    background-color: #56a87b;
-    
+  color: #56a87b;
+  background-color: #56a87b;
+}
+
+.fotoLoud {
+  height: 100px;
+}
+
+.textoLoud {
+    padding: 23px;
+  font: optional;
+  text-align: justify;
+  list-style-type: none;
 }
