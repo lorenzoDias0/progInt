@@ -60,3 +60,15 @@ ul {
     background-color: #857dcc;
     
 }
+
+.fotoLiquid {
+    height: 100px;
+  }
+  
+  .textoLiquid {
+      padding: 23px;
+    font: optional;
+    text-align: none;
+    list-style-type: none;
+    color: #352786;
+  }

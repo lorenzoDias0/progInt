@@ -60,3 +60,15 @@ ul {
     background-color: #7742bb;
     
 }
+
+.fotoKoi {
+    height: 100px;
+  }
+  
+  .textoKoi {
+      padding: 23px;
+    font: optional;
+    text-align: none;
+    list-style-type: none;
+    color: #3e175e;
+  }
