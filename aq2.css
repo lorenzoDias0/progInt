@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color: #a5e0b4;
+  background-color: #d7fae0;
 }
 
 nav {
@@ -60,11 +60,11 @@ ul {
 }
 
 .fotoLoud {
-  height: 100px;
+  height: 116px;
 }
 
 .textoLoud {
-    padding: 23px;
+  padding: 23px;
   font: optional;
   text-align: none;
   list-style-type: none;

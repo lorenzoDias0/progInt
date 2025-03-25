@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color: #fdcccc;
+  background-color: #fab1b1;
 }
 
 nav {
@@ -17,7 +17,7 @@ nav {
 }
 
 .menu li {
-  background-color: #f06363;
+  background-color: #a04949;
   position: relative;
   text-align: center;
 }
@@ -30,7 +30,7 @@ nav {
 }
 
 .menu li a:hover {
-  background-color: #963030;
+  background-color: #6b2222;
 }
 
 .submenu {
@@ -60,7 +60,7 @@ ul {
 }
 
 .fotoSen {
-  height: 100px;
+  height: 120px;
 }
 
 .textoSen {

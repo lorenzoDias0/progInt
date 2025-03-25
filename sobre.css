@@ -1,11 +1,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: #bbc4f5;
+    background-color: rgb(212, 139, 176);
 }
 
 nav {
-    background: #4e4cbb;
+    background: #6A1E55;
     text-align: center;
 }
 
@@ -17,7 +17,7 @@ nav {
 }
 
 .menu li {
-    background-color: #2a3870;
+    background-color: #A64D79;
     position: relative;
     text-align: center;
 }
@@ -25,18 +25,18 @@ nav {
 .menu li a {
     display: block;
     padding: 20px 20px;
-    color: rgb(197, 197, 197);
+    color: rgb(77, 68, 92);
     text-decoration: none;
 }
 
 .menu li a:hover {
-    background-color: #9db4e4;
+    background-color: #663157;
 }
 
 .submenu {
     display: none;
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: darkgray;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -52,23 +52,33 @@ nav {
 }
 
 .submenu li a:hover {
-    background-color: #5354a3;
+    background-color: #663157;
 }
 
 ul {
-    color: #7e74db;
-    background-color: #857dcc;
+    color: #9AA6B2;
+    background-color: #D9EAFD;
 
 }
 
-.fotoLiquid {
-    height: 118px;
+.eu {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    text-align: none;
+    max-width: 400px;
+    max-height: -220px;
+    background-color: #e9c4d5;
+    color: #71879c;
 }
 
-.textoLiquid {
+.textoSobre {
+    list-style-type: none;
     padding: 23px;
     font: optional;
     text-align: none;
-    list-style-type: none;
-    color: #352786;
+    color: #470024;
+}
+
+.fotoValorant {
+    height: 180px;
 }
